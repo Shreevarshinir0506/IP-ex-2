@@ -1,0 +1,206 @@
+Page1:
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> leave management for student </title>
+        <style>
+            body{
+            background-image: url("w1.png");
+            }
+            h1{
+            font-size: 25px;
+            text-shadow: 2px 2px 4px;
+            }
+            a{
+                font-size: 20px;
+                padding-left: 93%;
+            }
+        </style>
+    </head>
+    <body>
+    <center>
+        <h1>LEAVE MANAGEMENT SYSTEM FOR STUDENT</h1>
+    </center><br>
+    <a href="2.html">HOD</a>
+    <a href="2.html">FACULTY</a>
+    <a href="2.html">STUDENT</a>
+    <a href="2.html">PARENT</a>
+    </body>
+</html>
+Page2:
+<html>
+    <head>
+        <style>
+            body{
+                background-image:url(v.png);
+                background-size: cover;
+            }
+            form{
+                padding-top:170;
+                border:2px;
+                width:200;
+                text-align:justify;
+                font-size: 25px;
+            }
+            button{
+                    font-size:25px;
+                }
+            h1{
+                color:#005B41;
+                text-shadow: 2px 2px 4px;
+            }
+            button{
+                background-color:#C1F2B0;
+            }
+        </style>
+    </head>
+    <body>
+    <center>
+
+        <h1> Velammal College Of Engineering And Technology,Madurai</h1>
+         <h1>STUDENT LEAVE MANAGEMENT SYSTEM-ATTENDANCE</h1>
+        <form>
+           </b>username:<input type="text"><br>
+           password:<input type="password"><br>
+           <br>
+        <button>login</button>
+        </form>
+     </center>
+    </body>
+</html>
+
+Page 3:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Leave Management</title>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
+    header {
+      background-color: white;
+      color: black;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      margin: 2rem;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+    input, select {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: black;
+      color: white;
+      padding: 0.7rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+</style>
+</head>
+<body>
+<header>
+<h1>Leave Management System</h1>
+</header>
+<main>
+<form>
+<label for="studentname">Student Name:</label>
+<input type="text" id="studentName" name="studentName" required>
+<label for="Department">Department:</label>
+<input type="text" id = "Department" name="Department"required>
+<label for="Roll number">Roll number :</label>
+<input type="text" id="Roll Number" name="Roll number" required>
+<label for="Reason for leave">Reason for leave:</label>
+<select id="Reason for leave" name="Reason for leave" required>
+<option value="vacation">Vacation</option>
+<option value="sick">Sick Leave</option>
+<option value="personal">Personal Leave</option>
+</select>
+<label for="Number of days applied">Number of dates applied:</label>
+<input type="number" id="Number of days applied " name="Number of days applied" required>
+<label for="startDate">Start Date:</label>
+<input type="date" id="startDate" name="startDate" required>
+<label for="endDate">End Date:</label>
+<input type="date" id="endDate" name="endDate" required>
+<button type="submit">Submit Leave form</button>
+</form>
+</main>
+</body>
+</html>
+
+Page 4:
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-color:#D0A2F7;
+}
+        table {
+            width: 100%;
+            border-collapse: collapse;          
+        }
+th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+background-color:white
+       }
+th {
+background-color:grey;
+        }
+</style>
+</head>
+<body style=" background-image: url('C:\Users\shree varshini\Desktop\html\leave-management.png');">
+<h1 style="text-align:center;color:red;font-family:algerian;"> VELAMMAL COLLEGE OF ENGINEERING AND TECHNOLOGY<br>MADURAI </h1>
+<hr>
+<h2 style="text-align:center;color:#030637;font-family:algerian;"> STUDENT LEAVE MANAGEMENT SYSTEM-ATTENDANCE</h2>
+<hr>
+<h2 style="text-align:center;color:#294B29;font-family:algerian;">STUDENT DETAILS </h2>
+<table>
+<tr>
+<th>NAME</th>
+<th>ROLL_NO</th>
+<th>PRESENT/ABSENT</th>
+</tr>
+<tr>
+<td>SHREEVARSHINI</td>
+<td>22CSEB25</td>
+<td>PRESENT</td>
+</tr>
+<tr>
+<td>MATCHARANI</td>
+<td>22CSEB17</td>
+<td>PRESENT</td>
+</tr>
+<tr>
+<td>AGNISELVI</td>
+<td>22CSEB01</td>
+<td>ABSENT</td>
+</tr>
+</table>
+</body>
+</html>
